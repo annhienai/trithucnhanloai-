@@ -1,0 +1,179 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Danh mục công khai An Nhiên AI",
+  "type": "object",
+  "required": [
+    "version",
+    "books",
+    "music",
+    "websites"
+  ],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "books": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "author",
+          "topic",
+          "status",
+          "rights",
+          "description"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]{1,80}$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "author": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "topic": {
+            "type": "string"
+          },
+          "cover": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "description": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "pending",
+              "draft",
+              "published"
+            ]
+          },
+          "rights": {
+            "enum": [
+              "unknown",
+              "commentary-only",
+              "licensed",
+              "public-domain"
+            ]
+          },
+          "featured": {
+            "type": "boolean"
+          },
+          "hidden": {
+            "type": "boolean"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "label",
+                "url"
+              ],
+              "properties": {
+                "label": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "sections": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "key",
+                "text",
+                "approved"
+              ],
+              "properties": {
+                "key": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 11
+                },
+                "text": {
+                  "type": "string"
+                },
+                "approved": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "mindmap": {
+            "type": "array"
+          },
+          "illustrations": {
+            "type": "array"
+          }
+        }
+      }
+    },
+    "music": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "videoId"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "videoId": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_-]{11}$"
+          }
+        }
+      }
+    },
+    "websites": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "url"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "image": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "topic": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

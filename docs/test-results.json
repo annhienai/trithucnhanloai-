@@ -1,0 +1,306 @@
+{
+  "checks": [
+    [
+      "letter full text",
+      true
+    ],
+    [
+      "remember skip",
+      true
+    ],
+    [
+      "search without accents",
+      true
+    ],
+    [
+      "empty results",
+      true
+    ],
+    [
+      "reset filter",
+      true
+    ],
+    [
+      "topic filter",
+      true
+    ],
+    [
+      "all 12 pending panels",
+      true
+    ],
+    [
+      "all 12 sample panels",
+      true
+    ],
+    [
+      "note persists",
+      true
+    ],
+    [
+      "keyword related article",
+      true
+    ],
+    [
+      "no invented answer",
+      true
+    ],
+    [
+      "reading progress visible",
+      true
+    ],
+    [
+      "lightbox opens",
+      true
+    ],
+    [
+      "lightbox Escape",
+      true
+    ],
+    [
+      "mobile menu expanded",
+      true
+    ],
+    [
+      "mobile menu navigation",
+      true
+    ],
+    [
+      "large type no horizontal overflow",
+      true
+    ],
+    [
+      "editor add",
+      true
+    ],
+    [
+      "reject ungrounded publication",
+      true
+    ],
+    [
+      "import 150 books",
+      true
+    ],
+    [
+      "standalone file mode",
+      true
+    ],
+    [
+      "images decoded",
+      true
+    ]
+  ],
+  "layout": [
+    {
+      "route": "home",
+      "size": "desktop",
+      "overflow": false
+    },
+    {
+      "route": "gratitude",
+      "size": "desktop",
+      "overflow": false
+    },
+    {
+      "route": "catalog",
+      "size": "desktop",
+      "overflow": false
+    },
+    {
+      "route": "knowledge",
+      "size": "desktop",
+      "overflow": false
+    },
+    {
+      "route": "recommended",
+      "size": "desktop",
+      "overflow": false
+    },
+    {
+      "route": "research",
+      "size": "desktop",
+      "overflow": false
+    },
+    {
+      "route": "learning",
+      "size": "desktop",
+      "overflow": false
+    },
+    {
+      "route": "member",
+      "size": "desktop",
+      "overflow": false
+    },
+    {
+      "route": "music",
+      "size": "desktop",
+      "overflow": false
+    },
+    {
+      "route": "websites",
+      "size": "desktop",
+      "overflow": false
+    },
+    {
+      "route": "about",
+      "size": "desktop",
+      "overflow": false
+    },
+    {
+      "route": "philosophy",
+      "size": "desktop",
+      "overflow": false
+    },
+    {
+      "route": "workflow",
+      "size": "desktop",
+      "overflow": false
+    },
+    {
+      "route": "policy",
+      "size": "desktop",
+      "overflow": false
+    },
+    {
+      "route": "home",
+      "size": "tablet",
+      "overflow": false
+    },
+    {
+      "route": "gratitude",
+      "size": "tablet",
+      "overflow": false
+    },
+    {
+      "route": "catalog",
+      "size": "tablet",
+      "overflow": false
+    },
+    {
+      "route": "knowledge",
+      "size": "tablet",
+      "overflow": false
+    },
+    {
+      "route": "recommended",
+      "size": "tablet",
+      "overflow": false
+    },
+    {
+      "route": "research",
+      "size": "tablet",
+      "overflow": false
+    },
+    {
+      "route": "learning",
+      "size": "tablet",
+      "overflow": false
+    },
+    {
+      "route": "member",
+      "size": "tablet",
+      "overflow": false
+    },
+    {
+      "route": "music",
+      "size": "tablet",
+      "overflow": false
+    },
+    {
+      "route": "websites",
+      "size": "tablet",
+      "overflow": false
+    },
+    {
+      "route": "about",
+      "size": "tablet",
+      "overflow": false
+    },
+    {
+      "route": "philosophy",
+      "size": "tablet",
+      "overflow": false
+    },
+    {
+      "route": "workflow",
+      "size": "tablet",
+      "overflow": false
+    },
+    {
+      "route": "policy",
+      "size": "tablet",
+      "overflow": false
+    },
+    {
+      "route": "home",
+      "size": "mobile",
+      "overflow": false
+    },
+    {
+      "route": "gratitude",
+      "size": "mobile",
+      "overflow": false
+    },
+    {
+      "route": "catalog",
+      "size": "mobile",
+      "overflow": false
+    },
+    {
+      "route": "knowledge",
+      "size": "mobile",
+      "overflow": false
+    },
+    {
+      "route": "recommended",
+      "size": "mobile",
+      "overflow": false
+    },
+    {
+      "route": "research",
+      "size": "mobile",
+      "overflow": false
+    },
+    {
+      "route": "learning",
+      "size": "mobile",
+      "overflow": false
+    },
+    {
+      "route": "member",
+      "size": "mobile",
+      "overflow": false
+    },
+    {
+      "route": "music",
+      "size": "mobile",
+      "overflow": false
+    },
+    {
+      "route": "websites",
+      "size": "mobile",
+      "overflow": false
+    },
+    {
+      "route": "about",
+      "size": "mobile",
+      "overflow": false
+    },
+    {
+      "route": "philosophy",
+      "size": "mobile",
+      "overflow": false
+    },
+    {
+      "route": "workflow",
+      "size": "mobile",
+      "overflow": false
+    },
+    {
+      "route": "policy",
+      "size": "mobile",
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "bad": []
+}
